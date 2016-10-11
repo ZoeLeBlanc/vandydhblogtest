@@ -1,7 +1,7 @@
 ---
-id: 4
 title: Thanks!
-permalink: /contact-success/
+permalink: "/contact-success/"
+id: 4
 options: nomenu, nolanding
 excerpt: I'll get in touch soon
 background-image: caustic_light.jpg

@@ -1,14 +1,16 @@
 ---
-priority: 0.6
 title: Project X
+date: 3000-01-01 00:00:00 Z
+categories:
+- projects
+tags:
+- This
+- That
+- The other
+priority: 0.6
 excerpt: An example of a and b
-categories: projects
 background-image: works-sample.png
 grid-image: projects.png
-tags:
-  - This
-  - That
-  - The other
 ---
 
 #### Results

@@ -1,7 +1,7 @@
 ---
-id: 5
 title: oops!
-permalink: /contact-success/
+permalink: "/contact-success/"
+id: 5
 options: nomenu, nolanding
 excerpt: something went wrong
 background-image: caustic_light.jpg

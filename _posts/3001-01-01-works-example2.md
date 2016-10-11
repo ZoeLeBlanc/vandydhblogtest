@@ -1,13 +1,15 @@
 ---
-priority: 0.7
 title: Project Y
-excerpt: A better example of a and b, with c
-categories: projects
-background-image: works-sample.png
+date: 3001-01-01 00:00:00 Z
+categories:
+- projects
 tags:
-  - This
-  - That
-  - The other
+- This
+- That
+- The other
+priority: 0.7
+excerpt: A better example of a and b, with c
+background-image: works-sample.png
 ---
 
 #### Results

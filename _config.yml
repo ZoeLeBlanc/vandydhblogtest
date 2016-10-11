@@ -1,3 +1,4 @@
+
 # Welcome to Jekyll!
 
 
@@ -23,86 +24,54 @@ url: "https://prashantsolanki.com" # the base hostname & protocol for your site
 
 # on landing page
 # - set the greeting only if you want to display the first green section
+
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: _pages
+  values:
+    layout: page
+- scope:
+    path: _posts
+  values:
+    layout: post
+- scope:
+    path: _drafts
+  values:
+    layout: post
+
+
 greeting:
   title: Welcome!
-  text: Thanks for dropping by. I hope that it will not waste your time, but in case it does, at least I tried. Originally from New Delhi, India, I’m doing my B.Tech in Computer Science from GGSIP University. But, apart from that, I’m a die hard classic rock fan, coffee addict, who also enjoy messing with hardware, playing football and Lawn Tennis. In general, my mind can zone out during any form of creative act. Opinions expressed here are mine.
-# - title for your blog's featured posts
+  text: Thanks for dropping by. I hope that it will not waste your time, but in case
+    it does, at least I tried. Originally from New Delhi, India, I’m doing my B.Tech
+    in Computer Science from GGSIP University. But, apart from that, I’m a die hard
+    classic rock fan, coffee addict, who also enjoy messing with hardware, playing
+    football and Lawn Tennis. In general, my mind can zone out during any form of
+    creative act. Opinions expressed here are mine.
 features-title: Intersting Stuff
-# - displayed at the bottom
 closing-head: Thanks for visiting
 closing-para: Feel free to get in touch. Cheers!
-
-# choose where to put back and next links:
-# top, bottom, both, none
 navlinks: bottom
-
-# expecting more works? mark your list as in-progress
-works_in_progress: yes
-
-# on all pages (and the first three you list display with greeting, if included)
+works_in_progress: true
 social:
-#  twitter: https://twitter.prashantsolanki.com/
   github: http://github.prashantsolanki.com/
   linkedin-square: http://linkedin.prashantsolanki.com/
   google-plus-square: http://googleplus.prashantsolanki.com/
   facebook-official: http://facebook.prashantsolanki.com/
-  email: /contact/
-  #flickr:
-  #instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
-
-# Build settings
-permalink: /:categories/:title
+  email: "/contact/"
+permalink: "/:categories/:title"
 markdown: kramdown
-#sass:
-#  style: compressed
-exclude: ['site.bat']
-include: ['_pages','.htaccess']
-defaults:
-  - scope:
-      path: _pages
-    values:
-      layout: page
-      #permalink: /:slug/ # dunna work. See github.com/jekyll/jekyll/issues/2280
-  - scope:
-      path: _posts
-    values:
-      layout: post
-  - scope:
-      path: _drafts
-    values:
-      layout: post
-
-# to initialize arrays in assignments (assign myarr = site.empty_array)
-# (easier to grok than assign myarr = '' | split',')
+exclude:
+- site.bat
+include:
+- _pages
+- ".htaccess"
 empty_array: []

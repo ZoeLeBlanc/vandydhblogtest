@@ -1,13 +1,15 @@
 ---
-priority: 0.6
 title: Project Z
-excerpt: An example of d and e
-categories: projects
-background-image: works-sample.png
+date: 3000-09-01 00:00:00 Z
+categories:
+- projects
 tags:
-  - This
-  - That
-  - The other
+- This
+- That
+- The other
+priority: 0.6
+excerpt: An example of d and e
+background-image: works-sample.png
 ---
 
 #### Results
