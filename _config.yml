@@ -11,13 +11,13 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: prashantsolanki
-description: You must forget to make it unforgettable.
+title: Vanderbilt Digital Humanities Center
+description: Home for all things digital humanities at Vanderbilt University
 owner:
-  name: Prashant Solanki # or company name
+  name: Vanderbilt Digital Humanities Center # or company name
   email: solanisrp2@gmail.com
   url: https://prashantsolanki.com
-first_published: 2015 # if migrating another site, the year of your first publish
+first_published: 2016 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://prashantsolanki.com" # the base hostname & protocol for your site
 
