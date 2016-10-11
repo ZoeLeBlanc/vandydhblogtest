@@ -1,14 +1,15 @@
 ---
-key: 3
 title: Contact
-permalink: /contact/
+permalink: "/contact/"
+key: 3
 options: nolanding
 excerpt: Get in touch
 background-image: caustic_light.jpg
 script-includes:
-  - /js/jquery.validate.min.js
-script: |
-  $("#sendemail").validate();
+- "/js/jquery.validate.min.js"
+script: '$("#sendemail").validate();
+
+'
 ---
 
 <section>
